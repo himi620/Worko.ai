@@ -1,2 +1,53 @@
 # Worko.ai
 Worko.ai - backend
+
+
+# Node.js MVC MongoDB Example
+
+## Overview
+
+This is an example of a Node.js project using MVC architecture with MongoDB. The project includes basic authentication and validation for API endpoints.
+
+## Prerequisites
+
+- Node.js (v14 or later)
+- MongoDB
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone <repository-url>
+    cd nodejs-mvc-mongodb
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Create a `.env` file with the following content:**
+
+    ```env
+    DB_URI=mongodb://localhost:27017/worko
+    PORT=3000
+    AUTH_USER=your-username
+    AUTH_PASS=your-password
+    ```
+
+4. **Build the project:**
+
+    ```bash
+    npx webpack --config webpack.config.js
+    ```
+
+5. **Run the project:**
+
+    ```bash
+    node dist/bundle.js
+    ```
+
+## Project Structure
+
